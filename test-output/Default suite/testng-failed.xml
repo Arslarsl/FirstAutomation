@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.emerald.project.EmeraldRecordingTest2">
+        <methods>
+          <include name="Test_aduitLogs"/>
+          <include name="Generate_Loan_agreementDocument"/>
+          <include name="SendLoan_Agreement"/>
+          <include name="testVisitCheckList"/>
+          <include name="testCreateSubApplication"/>
+          <include name="afterMethod"/>
+          <include name="testCall_Logs"/>
+          <include name="testReminders"/>
+          <include name="Generate_Letters_Document"/>
+          <include name="MoveApplication_to_Test"/>
+          <include name="testDuplicatesApplication"/>
+          <include name="testAddGoCardlessDetails"/>
+          <include name="testEquifaxVerification"/>
+          <include name="testBankAndFinanceReports"/>
+          <include name="Moving_From_Duplicate_to_Orignal"/>
+          <include name="testSendReceiveDocuments"/>
+          <include name="startBrowser"/>
+          <include name="Send_SMS"/>
+          <include name="Moving_From_Test_to_Orignal"/>
+          <include name="Send_Email"/>
+          <include name="Move_applicationto_Chaps"/>
+          <include name="Test_ApplicationJourney"/>
+          <include name="Generate_Document"/>
+        </methods>
+      </class> <!-- com.emerald.project.EmeraldRecordingTest2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

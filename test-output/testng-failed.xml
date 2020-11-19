@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="https://emeraldstaging.cubefunder.com/"/>
+  <test thread-count="5" name="Emerald.project(failed)">
+    <classes>
+      <class name="com.emerald.project.EmeraldRecordingTest2">
+        <methods>
+          <include name="Test_aduitLogs"/>
+          <include name="Generate_Loan_agreementDocument"/>
+          <include name="SendLoan_Agreement"/>
+          <include name="testVisitCheckList"/>
+          <include name="testCreateSubApplication"/>
+          <include name="afterMethod"/>
+          <include name="testCall_Logs"/>
+          <include name="testReminders"/>
+          <include name="Generate_Letters_Document"/>
+          <include name="MoveApplication_to_Test"/>
+          <include name="testDuplicatesApplication"/>
+          <include name="testAddGoCardlessDetails"/>
+          <include name="testEquifaxVerification"/>
+          <include name="testBankAndFinanceReports"/>
+          <include name="Moving_From_Duplicate_to_Orignal"/>
+          <include name="testSendReceiveDocuments"/>
+          <include name="startBrowser"/>
+          <include name="Send_SMS"/>
+          <include name="Moving_From_Test_to_Orignal"/>
+          <include name="Send_Email"/>
+          <include name="Move_applicationto_Chaps"/>
+          <include name="Test_ApplicationJourney"/>
+          <include name="Generate_Document"/>
+        </methods>
+      </class> <!-- com.emerald.project.EmeraldRecordingTest2 -->
+      <class name="com.emerald.project.EmeraldRecordingTest1">
+        <methods>
+          <include name="testCreateNewApplications"/>
+          <include name="testQuestionnaire"/>
+          <include name="testCustomerChecklist"/>
+          <include name="startBrowser"/>
+          <include name="testMonthlyPaymentSch"/>
+          <include name="testApplicationNotes"/>
+          <include name="testBioMonthlyPaymentSch"/>
+          <include name="afterMethod"/>
+          <include name="testRisk_checklist"/>
+          <include name="DailyPaymentSchedule"/>
+          <include name="testWeeklyPaymentSch"/>
+          <include name="testUnderWriterChecklist"/>
+        </methods>
+      </class> <!-- com.emerald.project.EmeraldRecordingTest1 -->
+    </classes>
+  </test> <!-- Emerald.project(failed) -->
+</suite> <!-- Failed suite [Suite] -->
